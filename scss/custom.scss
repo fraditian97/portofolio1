@@ -47,8 +47,8 @@
     padding: 95px 0px 70px 0px;
     overflow-x: hidden;
     img {
-        width: 500px;
-        height: 100px;
+        width: 81px;
+        height: 81px;
         border-radius: 99px;
     }
     .wrap {
@@ -59,7 +59,7 @@
             position: absolute;
             left: -220px;
             top: -150px;
-            font-size: 270px;
+            font-size: 400px;
             z-index: -1;
             color: lighten($secondary, 65%);
         }
@@ -108,7 +108,7 @@
         li {
             &:first-child {
                 font-size: em(15);
-                color: lighten($primary, 50%);
+                color: lighten($primary, 35%);
             }
         }
     }
